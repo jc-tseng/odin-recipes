@@ -4,6 +4,16 @@ a {
     font-family: Verdana, "Geneva", Tahoma, sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.title {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -11,6 +21,7 @@ a {
 img {
     height: auto;
     width: 300px;
+    margin-top: 25px;
 }
 
 .center {
@@ -28,6 +39,10 @@ div ul {
     display: inline-block;
     text-align: left;
     list-style: none;
+}
+
+.home-list {
+    display: inline-block;
 }
 
 button {
