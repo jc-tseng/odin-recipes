@@ -17,6 +17,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
 }
 
 div {
@@ -26,4 +27,27 @@ div {
 div ul {
     display: inline-block;
     text-align: left;
+    list-style: none;
+}
+
+button {
+    padding: .5em;
+}
+
+.links-list a {
+    border-style: solid;
+    text-decoration: none;
+    padding: 1em 2em;
+    margin: 10px;
+    display: inline-block;
+}
+
+.center a:hover,
+.links-list a:hover {
+    background-color: whitesmoke;
+} 
+
+a:visited {
+    text-decoration: none;
+    color: black;
 }
