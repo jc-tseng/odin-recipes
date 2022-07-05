@@ -1,0 +1,29 @@
+h1,
+a {
+    text-align: center;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: auto;
+    width: 300px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    text-align: center;
+}
+
+div ul {
+    display: inline-block;
+    text-align: left;
+}
