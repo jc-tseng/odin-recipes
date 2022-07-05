@@ -47,6 +47,7 @@ div ul {
 
 button {
     padding: .5em;
+    background-color: transparent;
 }
 
 .links-list a {
@@ -57,6 +58,7 @@ button {
     display: inline-block;
 }
 
+button:hover,
 .center a:hover,
 .links-list a:hover {
     background-color: whitesmoke;
