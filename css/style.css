@@ -11,7 +11,7 @@ h1 {
 
 .title {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 * {
@@ -48,6 +48,8 @@ div ul {
 button {
     padding: .5em;
     background-color: transparent;
+    color: black;
+    border-style: 1px black;
 }
 
 .links-list a {
@@ -64,7 +66,8 @@ button:hover,
     background-color: whitesmoke;
 } 
 
-a:visited {
+a:visited,
+a:link {
     text-decoration: none;
     color: black;
 }
